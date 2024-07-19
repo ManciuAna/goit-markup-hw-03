@@ -16,6 +16,11 @@ body {
 .studio-text {
   color: #2e2f42;
 }
+.header-container{
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 24px 156px;
+}
 
 .header-link {
   font-family: "Roboto", sans-serif;
