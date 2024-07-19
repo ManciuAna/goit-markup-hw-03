@@ -30,6 +30,8 @@ body {
   letter-spacing: 0.02em;
   text-align: left;
   color: #2e2f42;
+  padding: 24px 0 24px;
+  
 }
 
 .header-link:hover {
