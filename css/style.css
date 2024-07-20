@@ -188,9 +188,11 @@ img {
 }
 
 .team -section {
-  background-color: #f4f4fd;
   padding: 120px 0;
+  background-color: #f4f4fd;
 }
+  
+ 
 .container-team {
   padding: 120px 0;
   background: #f4f4fd;
