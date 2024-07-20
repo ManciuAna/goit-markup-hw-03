@@ -180,7 +180,7 @@ img{display: block;
   }
 .container-team{
   padding-left: 156px;
- 
+  padding-right: 156px;
 }
 .team-list-item {
   flex-basis: calc((100% - 72px) / 4));
