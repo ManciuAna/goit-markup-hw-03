@@ -10,6 +10,7 @@ ul {
 a {
   text-decoration: none;
 }
+
 .logo {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -26,7 +27,7 @@ a {
 .header {
   border-bottom: 1px solid #e7e9fc;
 }
-.header-container {
+.container-header{
   max-width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
@@ -42,8 +43,10 @@ a {
 .header-list {
   display: flex;
   gap: 40px;
-}
-.head-item-list .header-link-link {
+  }
+.head-item-list{
+  padding: 24px 0} 
+.header-link-link {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
@@ -82,6 +85,9 @@ a {
 .address-contact:focus {
   color: #404bbf;
 }
+.hero section {
+  color: #ffffff;
+  padding: 188px 0;}
 .container-hero {
   width: 1158px;
   padding-top: 188px;
@@ -89,9 +95,7 @@ a {
   margin: 0 auto;
   background: #2e2f42;
 }
-.hero section {
-  color: #ffffff;
-}
+
 
 .hero-title {
   justify-content: center;
@@ -129,6 +133,10 @@ a {
 .benefits {
   padding: 120px 0;
 }
+.container-benefits{
+  padding-left: 156px;
+  padding-right: 156px;
+}
 .our-company-title-hidden {
   position: absolute;
   clip: rect(0 0 0 0);
@@ -159,13 +167,14 @@ a {
 
 .team section {
   background-color: #f4f4fd;
+  padding: 120px 0;
   }
-.container-benefits{
+.container-team{
   padding-left: 156px;
   padding-right: 156px;
 }
 .team-list-item {
-  flex-basis: calc(100%-3 * 24px) / 4;
+  flex-basis: calc((100% - 72px) / 4));
   border-radius: 0 0 4px 4px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.88),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
@@ -208,11 +217,11 @@ a {
   padding-left: 156px;
 }
 .portfolio section{
-padding: 120px 0;
+  padding-top: 120px; 
+  padding-bottom: 120px;
 }
-.container-portfolio{
-  padding-left: 156px;
- 
+.container-portfolio {
+  padding-left: 156px; 
 }
 .portfolio-title {
   font-weight: 700;
@@ -232,15 +241,14 @@ padding: 120px 0;
   flex-wrap: wrap;
 }
 .portfolio-item{
-  flex-basis: calc(100%-3 * 24px) / 4;
+  flex-basis: calc((100% - 48px) / 3);
   
 }
 .portfolio-list-app{
   padding: 32px 16px;
-  border-width: 1px, 1px, 1px, 1px;
-  border-style: solid;
-  border-color: #E7E9FC;
+  border: 1px solid #e7e9fc; 
   border-top: none;
+  margin-bottom: 8px; 
 }
 .portfolio-list-title {
   font-weight: 500;
