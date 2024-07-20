@@ -221,6 +221,7 @@ img {
 }
 .character {
   padding: 32px 0;
+  margin-bottom: 8px; 
 }
 .team-list-name {
   font-weight: 500;
