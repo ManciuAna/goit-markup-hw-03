@@ -3,6 +3,18 @@ body {
   background-color: #ffffff;
   color: #434455;
 }
+h1, h2, h3, h4, h5, h6, p { margin: 0;}
+html {box-sizing: border-box;}
+*, *::after, *::before {box-sizing: inherit;}
+img { display:block; max-width: 100%; height: auto;}
+address { font-style: normal; }
+.link {text-decoration: none; color:inherit;} 
+.list {list-style: none; padding: 0; margin: 0;}
+  
+section{
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
 ul {
   margin: 0;
   list-style-type: none;
@@ -10,7 +22,6 @@ ul {
 a {
   text-decoration: none;
 }
-
 .logo {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -94,6 +105,7 @@ a {
   padding-bottom: 292px;
   margin: 0 auto;
   background: #2e2f42;
+  display: flex;
 }
 
 
@@ -134,8 +146,7 @@ a {
   padding: 120px 0;
 }
 .container-benefits{
-  padding-left: 156px;
-  padding-right: 156px;
+ display: flex;
 }
 .our-company-title-hidden {
   position: absolute;
@@ -170,9 +181,7 @@ a {
   padding: 120px 0;
   }
 .container-team{
-  padding-left: 156px;
-  padding-right: 156px;
-}
+  display: flex;}
 .team-list-item {
   flex-basis: calc((100% - 72px) / 4));
   border-radius: 0 0 4px 4px;
@@ -214,8 +223,7 @@ a {
   color: #434455;
 }
 .container-team{
-  padding-left: 156px;
-}
+  display: flex;}
 .portfolio section{
   padding-top: 120px; 
   padding-bottom: 120px;
@@ -271,7 +279,7 @@ a {
   padding: 100px 0;
 }
 .container-footer{
-  padding-left: 156px;
+  display: flex;
 }
 .logo-footer{
   display: inline-block;
