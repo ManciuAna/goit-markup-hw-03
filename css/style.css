@@ -108,7 +108,7 @@ img {
 
 .container-hero {
   width: 1158px;
-  padding-top: 188px;
+  padding: 188px 0;
   padding-bottom: 292px;
   margin: 0 auto;
   background: #2e2f42;
@@ -154,7 +154,7 @@ img {
   padding-left: 156px;
   padding-right: 156px;
 }
-.our-company-title-hidden {
+.our-company-visually-hidden {
   position: absolute;
   clip: rect(0 0 0 0);
   overflow: hidden;
@@ -192,21 +192,19 @@ img {
   padding-right: 156px;
 }
 .team-list-item {
-  flex-basis: calc((100% - 72px) / 4));
+  flex-basis: calc((100% - 72px) / 4);
   border-radius: 0 0 4px 4px;
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.88),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-  background: #ffffff;
-}
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+   background: #FFFFFF;
 
-.team-title {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
+  background: #F4F4FD;
+
   margin-bottom: 72px;
 }
 .team-list {
