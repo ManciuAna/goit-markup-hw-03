@@ -151,7 +151,7 @@ img {
   padding-left: 156px;
   padding-right: 156px;
 }
-.our-company-hidden-title {
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -168,7 +168,7 @@ img {
   gap: 24px;
 }
 .quality-list-item {
-  flex-basis: calc((100% - 3 * 24px) / 4);
+  
   }
 .quality-list-title {
   margin-bottom: 8px;
