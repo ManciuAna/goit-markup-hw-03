@@ -151,14 +151,16 @@ img {
   padding-left: 156px;
   padding-right: 156px;
 }
-.visually-hidden {
+.our-company-hidden-title {
   position: absolute;
   width: 1px;
   height: 1px;
   margin: -1px;
-  border: o;
+  border: 0;
   padding: 0;
-  clip: rect(0 0 0 0);
+  white-space: nonwrap;
+  clip-path: inset(100%);
+  clip: rect(0, 0, 0, 0);
   overflow: hidden;
 }
 .quality-list {
@@ -166,7 +168,7 @@ img {
   gap: 24px;
 }
 .quality-list-item {
-  width: calc((100% - 72px) / 4); 
+  flex-basis: calc((100% - 3 * 24px) / 4);
   }
 .quality-list-title {
   margin-bottom: 8px;
@@ -274,6 +276,7 @@ img {
 }
 .portfolio-item {
   width: calc((100% - 48px) / 3);
+  box-sizing: border-box;
 }
 .portfolio-list-app {
   padding: 32px 16px;
